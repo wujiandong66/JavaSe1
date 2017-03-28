@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSe.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSe_main.iml" group="JavaSe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSe_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSe_test.iml" group="JavaSe" />
+    </modules>
+  </component>
+</project>
