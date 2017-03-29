@@ -5,7 +5,20 @@ package collection;
  */
 public class StringTestT {
     public static void main(String[] args) {
-        String s = "hello";
+        String s = "helloworld";
+        // match 匹配\ [mætʃ]
+        System.out.println(s.matches("\\w+")); // JavaScript
+//        System.out.println(s.contains("he"));
+        System.out.println(s.equals("hello"));
+
+        // repalce 取代\ [rɪ'pleɪs]
+
+//        System.out.println(s.replace("l", "a"));
+        System.out.println(s.replaceAll("l", "a"));
+       System.out.println(s.replaceAll("\\w", "a"));
+        System.out.println("------------");
+        System.out.println(s.replaceFirst("l", "a"));
+//        String s = "hello";
         String s1 = "asdf";
 
         char[] chars = {'H', 'e', 'l', 'l', 'o'};
@@ -53,4 +66,5 @@ public class StringTestT {
         }
         return new String(chars);
     }
+
 }
