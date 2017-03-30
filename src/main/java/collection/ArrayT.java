@@ -15,6 +15,7 @@ public class ArrayT {
         System.out.println(booleans[99]); // ?
 
         int[] ints = {1, 2, 3, 4, 5, 6, 67777, 888};
+        System.out.println(ints.toString());
         for (int anInt : ints) {
             System.out.println(anInt);
         }
