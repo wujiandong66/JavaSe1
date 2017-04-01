@@ -23,15 +23,15 @@ public class StringTest {
 
         StringTest stringTest = new StringTest();
         System.out.println(stringTest.method());
-        String s = "Afghh";
         String s1 = "asss";
         String cde = "cde";
+        String s = "Afghh";
         String z = "hh";
         String zz = "w";
-        System.out.println(s.charAt(0));//A
         System.out.println(s.codePointAt(0));//65
         System.out.println(s.codePointBefore(1));// String s = "Afghh"; index:1前面的 还是A 65
         System.out.println(s.codePointCount(1, 3));//2
+        System.out.println(s.charAt(0));//A
         /*
         在计算字符串长度时，Java的两种方法length()和codePointCount()一度让我困惑，运行书上例子得到的长度值是相等的，那为什么要设定两个方法呢？
 
