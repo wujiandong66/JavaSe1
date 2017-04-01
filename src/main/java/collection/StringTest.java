@@ -1,5 +1,6 @@
 package collection;
 
+import com.sun.scenario.effect.Merge;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.io.UnsupportedEncodingException;
@@ -8,16 +9,29 @@ import java.io.UnsupportedEncodingException;
  * Created by Administrator on 2017/3/28 0028.
  */
 public class StringTest {
+
+    int s1 = 1;
+    int s2 = 1;
+
+    public int method() {
+
+        return s1 == s2 ? 1 : 2;
+    }
+
+
     public static void main(String[] args) throws UnsupportedEncodingException {
+
+        StringTest stringTest = new StringTest();
+        System.out.println(stringTest.method());
         String s = "Afghh";
         String s1 = "asss";
         String cde = "cde";
-        String z="hh";
-        String zz="w";
+        String z = "hh";
+        String zz = "w";
         System.out.println(s.charAt(0));//A
         System.out.println(s.codePointAt(0));//65
         System.out.println(s.codePointBefore(1));// String s = "Afghh"; index:1前面的 还是A 65
-        System.out.println(s.codePointCount(1,3));//2
+        System.out.println(s.codePointCount(1, 3));//2
         /*
         在计算字符串长度时，Java的两种方法length()和codePointCount()一度让我困惑，运行书上例子得到的长度值是相等的，那为什么要设定两个方法呢？
 
@@ -32,10 +46,10 @@ public class StringTest {
         但平常我们使用时，这两种求字符串长度的方法还是通用的，不用加以区别。
         */
         System.out.println("--------------------------");
-        String s5="1aa2abcd";
-        String z5="ABCD";
-        String s6="abcd";
-        String z6="abcd";
+        String s5 = "1aa2abcd";
+        String z5 = "ABCD";
+        String s6 = "abcd";
+        String z6 = "abcd";
         System.out.println(s5.compareTo(z5));//S5和z5差4个数  输出32
         System.out.println(s5.compareToIgnoreCase(z5));//区分大小写 输出-1
         System.out.println("-------------------------");
@@ -47,14 +61,14 @@ public class StringTest {
         System.out.println(z5.equalsIgnoreCase(s6));//输出true  用于比较不区分大小写
         System.out.println("----------equals-getBytes----------");
         System.out.println(z5.getBytes());//输出[B@74a14482
-        System.out.println(s5.getBytes( "ISO-8859-1" ));//输出[B@1540e19d
+        System.out.println(s5.getBytes("ISO-8859-1"));//输出[B@1540e19d
         /*
         getBytes() 方法有两种形式：
         getBytes(String charsetName): 使用指定的字符集将字符串编码为 byte 序列，并将结果存储到一个新的 byte 数组中。
         getBytes(): 使用平台的默认字符集将字符串编码为 byte 序列，并将结果存储到一个新的 byte 数组中。
         */
         System.out.println("-------lastIndexOf--------indexOf--isEmpty--length--matches--replace--------");
-        String s7 ="";
+        String s7 = "";
         System.out.println(s5.indexOf(z6));
         System.out.println(s7.isEmpty());//当且仅当 length() 为 0 时返回 true。
         System.out.println(s5.lastIndexOf("d"));//返回指定字符在此字符串中最后一次出现处的索引
