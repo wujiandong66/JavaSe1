@@ -16,7 +16,7 @@ import java.util.Scanner;
 
     public class Text2 {
         public static void main(String[] args) {
-           Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
           System.out.println("input string: ");
           String string = scanner.nextLine();
            char[] chars = string.toCharArray();
