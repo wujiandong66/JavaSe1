@@ -11,11 +11,7 @@ public class LinkedListTest {
         LinkedList<String> strings = new LinkedList<>();
         strings.add("a");
         strings.add("b");
-        LinkedList<String>linkedList1 =new LinkedList<>();
-        for (String string : strings) {
-            System.out.println(string);
-        }
-
+        strings.remove(0);
         System.out.println(strings.getFirst());
         System.out.println(strings.getLast());
     }
