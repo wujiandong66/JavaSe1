@@ -1,4 +1,4 @@
-package monthtest;
+package text.monthtest;
 
 import java.util.Scanner;
 

@@ -1,7 +1,6 @@
-package newcollection;
+package collection.newcollection;
 
 import java.util.Arrays;
-import java.util.Calendar;
 
 /**
  * Created by mingfei.net@gmail.com

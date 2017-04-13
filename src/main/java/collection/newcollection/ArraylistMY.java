@@ -1,4 +1,4 @@
-package newcollection;
+package collection.newcollection;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

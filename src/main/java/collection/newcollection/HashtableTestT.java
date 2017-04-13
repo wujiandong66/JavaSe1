@@ -1,8 +1,8 @@
-package newcollection;
+package collection.newcollection;
 
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Set;
+
 /**
  * Created by Administrator on 2017/4/11 0011.
  */

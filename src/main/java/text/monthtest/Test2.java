@@ -1,6 +1,4 @@
-package monthtest;
-
-import text.Text2;
+package text.monthtest;
 
 /**
  * Created by Administrator on 2017/4/8 0008.
