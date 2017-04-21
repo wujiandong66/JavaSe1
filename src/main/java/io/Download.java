@@ -13,7 +13,7 @@ import java.net.URL;
  * https://github.com/thu/JavaSE_20171
  */
 public class Download {
-    private static final String IMAGE_URL = "http://s.cn.bing.net/th?id=OJ.58V1JdyCq3tEwg&pid=MSNJVFeeds";
+    private static final String IMAGE_URL = "http://s.cn.bing.net/th?id=OJ.58V1JdyCq3tEwg&pid=MSNJVFeeds/1.2.tif";
 
     public static void main(String[] args) {
         try {
