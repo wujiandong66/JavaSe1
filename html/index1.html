@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script>
+        var  patt = /e/;
+        patt.compile('l','g');
+
+       var result=patt.exec('hello');
+        do{
+            console.log(result);
+            result=patt.exec("hello")
+        }while (result !=null);
+//        console.log("world".match(patt))
+    </script>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+</html>
