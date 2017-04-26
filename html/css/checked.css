@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    margin: 20px auto;
+    width: 153px;
+    height: 27px;
+}
+#box input{
+    display: none;
+}
+#box label{
+    display:block;
+    border-radius: 15px;
+    width: 76px;
+    height: 27px;
+    -webkit-transition:all 1s ;
+    background: url("../img/kaiguan.png");
+}
+#box input:checked+label{
+    width: 100px;
+    height: 27px;
+    background: url("../img/kaiguan.png") -51px 0;
+}
+#duihao{
+    margin: 20px 200px;
+    width: 153px;
+    height: 27px;
+}
+#duihao input{
+    display: none;
+}
+#duihao label{
+    font-family: 楷体;
+    color: plum;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    display:block;
+    border-radius: 15px;
+    width: 200px;
+    height: 38px;
+    padding-right:362px ;
+    -webkit-transition:all 100ms ;
+    background: url("../img/duihao1.png") right no-repeat;
+}
+#duihao input:checked+label{
+
+    background: url("../img/duihao.png") right no-repeat;
+}
+#duihao ul li{
+    height: 38px;
+    width: 562px;
+    border-bottom: 1px solid chartreuse;
+}
