@@ -7,7 +7,6 @@ import java.io.*;
  */
 public class TestM3 {
     public static void main(String[] args) {
-
         try (
                 BufferedInputStream in1 = new BufferedInputStream(new FileInputStream("src/main/java/text/monthtest/1.txt"));
                 BufferedInputStream in2 = new BufferedInputStream(new FileInputStream("src/main/java/text/monthtest/2.txt"));

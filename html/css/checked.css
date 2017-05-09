@@ -47,7 +47,6 @@
     background: url("../img/duihao1.png") right no-repeat;
 }
 #duihao input:checked+label{
-
     background: url("../img/duihao.png") right no-repeat;
 }
 #duihao ul li{
