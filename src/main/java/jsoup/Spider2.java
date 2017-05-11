@@ -6,11 +6,9 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-
 /**
  * Created by mingfei.net@gmail.com
  * 5/9/17 11:48
@@ -31,7 +29,6 @@ public class Spider2 {
             page(i + 1);
         }
     }
-
     private static void page(int page) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("data/test", true))) {
             Document document = Jsoup.connect(url + page).cookie("lianjia_uuid", "fe547e4f-b83f-49be-9708-5af2d41ebef4").get();
